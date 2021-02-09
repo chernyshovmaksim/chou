@@ -9,6 +9,7 @@ import './modules/popups';
 import './modules/bvi';
 import './modules/menu';
 import './modules/sliders';
+import './modules/lazyload';
 
 
 $(document).ready(function () {
