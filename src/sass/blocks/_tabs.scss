@@ -1,0 +1,19 @@
+.tabs {
+  .tabs__titles {
+    @apply flex justify-start text-xs sm:text-sm;
+
+    .tabs__title {
+      @apply px-4 py-2 mr-1 rounded-tl-md rounded-tr-md border border-b-0 border-gray-200 text-gray-600 font-semibold;
+      &.active {
+        @apply bg-gray-100;
+      }
+    }
+  }
+  .tabs__containers {
+    .tab {
+      .tab__body {
+        @apply grid gap-8 md:gap-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-1;
+      }
+    }
+  }
+}

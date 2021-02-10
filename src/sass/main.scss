@@ -2,9 +2,5 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-img.lazy {
-  background: #f1f1fa;
-  min-width: 100%;
-  min-height: 100%;
-  display: block;
-}
+@import "./blocks/tabs";
+@import './blocks/news';
