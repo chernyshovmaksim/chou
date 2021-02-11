@@ -17,4 +17,7 @@ import outsideWidgets from './modules/outsideModules'
 $(document).ready(function () {
 	agreementFunc()
 	outsideWidgets()
+
+
+	require('./news')
 })

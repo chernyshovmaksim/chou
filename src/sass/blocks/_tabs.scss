@@ -3,9 +3,16 @@
     @apply flex justify-start text-xs sm:text-sm;
 
     .tabs__title {
-      @apply px-4 py-2 mr-1 rounded-tl-md rounded-tr-md border border-b-0 border-gray-200 text-gray-600 font-semibold;
+      @apply px-4 py-2 mr-1 border border-gray-200 text-gray-600 font-semibold;
       &.active {
-        @apply bg-gray-100;
+        @apply bg-gray-200;
+      }
+
+      &:first-child{
+        @apply rounded-tl-md rounded-bl-md
+      }
+      &:last-child{
+        @apply rounded-tr-md rounded-br-md
       }
     }
   }

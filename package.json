@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "@fancyapps/fancybox": "^3.5.7",
-    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
     "jquery": "^3.5.1",
     "js-cookie": "^2.2.1",
     "mmenu-light": "^3.0.7",
